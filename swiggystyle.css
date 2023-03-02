@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 5px rgb(rgb(234, 229, 229), rgb(226, 233, 226), rgb(195, 195, 201));
+    padding: 11px ;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    
+}
+
+.left{
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.right{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.logo{
+    width: 35px;
+}
+
+.right > div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.nav-container1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid lightslategray;
+    padding-bottom: 11px;
+    
+    
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+}
+.nav-container1 > .right-half{
+    display: flex;
+    gap: 23px;
+}
+
+.nav-container1 > .right-half > span{
+    font-weight: 301;;
+}
+
+
+
+.card{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+    padding-bottom: 0;
+    
+
+}
+.card p{
+    font-weight: 100;
+    padding: 5px;
+    margin: 5px 0;
+}
+.card-image{
+    width: 250px;
+    padding-bottom: 5px ;
+}
+.rating-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap row;
+    padding : 10px 0px;
+    gap: 5px;
+    border-bottom: 0.2px solid grey;
+    color: #8A584B;
+}
+.bullet{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.offer-container{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 6px;
+    border-bottom: 0.2px solid grey;
+    color: #8A584B;
+}
+.bt-red{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 165, 0);
+    color: white;
+    padding: 1px 3px;
+}
+.bt-green{
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 239, 86);
+    color: white;
+    padding: 1px 3px;
+}
+
+
+.cards-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    gap: 22px;
+}
+
+.card:hover{
+    outline: 0.5px solid gainsboro ;
+}
+
+.bt-red .material-icons,.bt-green .material-icons{
+    font-size: 16px;
+    gap: 7px;
+}
+
+.card::before{
+    content: 'PROMOTED';
+    display: block;
+    border: 1px solid black;
+    position: absolute ;
+    padding: 5px;
+    color: white;
+    background-color: #393C41;
+    top:10;
+    
+}
+
+.btn{
+    display: block;
+    
+    border: none;
+    font-weight: bold;
+    color: rgb(145, 180, 225);
+    margin: 10px  auto;
+    padding: 5px 0;
+    visibility: hidden;
+}
+
+.card:hover .btn{
+    visibility: visible;
+    background-color: white;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px;
+}
+.footer > div{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    
+}
+
+.footer > div > a{
+    text-decoration: none;
+    color: white;
+    
+    
+
+}
+.footer img{
+    outline: 2px solid white;
+    gap: 15px;
+    transition-duration: 0.5px;
+}
+
+.footer img:hover{
+    width: 160px ;
+}
+
+.store-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.footer a{
+    font-weight: 300;;
+}
+
+.footer a:hover{
+    font-weight: bold;
+}
+
+
+.grid-item{
+
+}
+
+
+
